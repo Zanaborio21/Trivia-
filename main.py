@@ -271,8 +271,10 @@ while iniciar_trivia == True: #Para que vuelva iniciar si es el caso
     print ("Muy bien", nombre,"!")
     print ("Duplicaste tus puntos\n")#Devuelve un int
 
-  if respuesta_6 == ("a" or "c" or "d"):#esto lo busque en internet el "or"
+  if respuesta_6 == "a" or "d":#esto lo busque en internet el "or"
     print("Pregunta 1: ",spuntos[0],"\nPregunta 2: ",spuntos[1],"\nPregunta 3: ",spuntos[2],"\nPregunta 4: ",spuntos[3] ,"\nPregunta 5: ",spuntos[4] , "\nY divistes la totalidad de tus puntos")#Aca te muesta la lista y al final que dividiste tus puntos
+  elif respuesta_6 == "c":
+    print("Pregunta 1: ",spuntos[0],"\nPregunta 2: ",spuntos[1],"\nPregunta 3: ",spuntos[2],"\nPregunta 4: ",spuntos[3] ,"\nPregunta 5: ",spuntos[4] , "\nY divistes la totalidad de tus puntos")
     
   else:
     print("Pregunta 1: ",spuntos[0],"\nPregunta 2: ",spuntos[1],"\nPregunta 3: ",spuntos[2],"\nPregunta 4: ",spuntos[3] ,"\nPregunta 5: ",spuntos[4] , "\nY multiplicaste la totalidad de tus puntos")
